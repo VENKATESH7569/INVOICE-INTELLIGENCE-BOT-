@@ -1,19 +1,7 @@
-SYSTEM REQUIREMENTS
-| Requirement    | Details                         |
-| -------------- | ------------------------------- |
-| OS             | Windows, macOS, or Linux        |
-| Python Version | Python 3.8+                     |
-| RAM            | 4 GB minimum (8 GB recommended) |
-| Disk Space     | 500 MB+                         |
-
-
-Python Libraries
-
-Flask==2.2.5              # Web framework
-pytesseract==0.3.10       # OCR engine wrapper
-scikit-learn==1.3.0       # ML model (vectorizer + classifier)
-joblib==1.3.2             # Save/load ML model files
-Pillow==10.2.0            # Image processing (PNG, JPG)
-transformers==4.36.2      # AI summarization from Hugging Face
-torch==2.1.0              # Required by transformers
-pdfplumber==0.10.2        # Extract text from PDF
+flask
+pytesseract
+transformers
+Pillow
+scikit-learn
+pdfplumber
+torch
